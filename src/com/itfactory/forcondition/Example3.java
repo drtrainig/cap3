@@ -4,19 +4,28 @@ import java.util.Random;
 
 public class Example3
 {
+    /**
+     * Sa se creesze un program prin care se genereaza doua numere int random (o limita inferioara si o limita superioara) intre un anumit interval
+     * (De ex intre 0 si 30)
+     * In acest program se va verifica daca numarul generat limita inferioara este mai mic decat limita superioara se vor afisa numerele dintre aceste valori>
+     * Exemplu:
+     * limitaInferioara = 7 | limitaSuperioara = 12 -> Output: 7 8 9 10 11 12
+     */
     public static void main(String[] args)
     {
         Random random = new Random();
-        int limitaInferioara = 0;
-        int limitaSuperioara = 15;
-
-        for(int i = limitaInferioara; i < limitaSuperioara; i++)
+        int limitaInferioara = random.nextInt(20 + 1);
+        int limitaSuperioara = random.nextInt(20 + 1);
+        if (limitaInferioara < limitaSuperioara)
         {
-            int x = random.nextInt(limitaSuperioara + 1);
-            if (i == x)
+            System.out.println("S-a indeplinit conditia: limita inferioara:<" + limitaInferioara +"> | limita superioara <" + limitaSuperioara + ">");
+            for (int i = limitaInferioara; i <= limitaSuperioara; i++)
             {
-                System.out.println("S-a facut un match: " + i + " : " + x);
+                System.out.print(" " + i + " ");
             }
+        } else {
+            System.out.println("Nu s-a indeplinit conditia: limita inferioara:<" + limitaInferioara +"> | limita superioara <" + limitaSuperioara + ">");
         }
+
     }
 }

@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Example4
 {
-    //Am un cos cu bile. Bilele sunt de 3 culori: negru, alb si rosu
-   /*Pentru usurinta o sa asimilam urmatoarele culori cu numere:
+    /**Am un cos cu bile. Bilele sunt de 3 culori: negru, alb si rosu
+   Pentru usurinta o sa asimilam urmatoarele culori cu numere:
    Negru: 1
    Alb: 2
    Rosu: 3
@@ -28,11 +28,12 @@ public class Example4
         if((culoare1 == 1 && culoare2 == 2) || ( culoare1 == 2 && culoare2 == 1)) {
             System.out.println("Nonculori: " + culoare1 + ":" + culoare2);
         }
+
+        //Rezolvare mai usoara. Va rog sa faceti legatura intre conditii. Sunt la fel ca si logica.
+        //In loc sa verific daca am ales una dintre culorile alb sau negru, verific daca ambele sunt diferite de rosu.
         /* if (culoare1 != 3 && culoare2 != 3)
         {
             System.out.println("Nonculori: " + culoare1 + ":" + culoare2);
         }*/
-
-
     }
 }

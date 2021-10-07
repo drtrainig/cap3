@@ -4,16 +4,32 @@ import java.util.Random;
 
 public class Example2
 {
+    /**
+     * Sa se genereze doua numere random intre 0 si 50
+     * Daca suma acestor numere depaseste 70 se va afisa un mesaj "Suma <suma> mai mare decat 70"
+     * Daca suma acestor numere este egala cu 70 se va afisa un mesaj "Suma <suma> egala cu 70"
+     * Daca suma acestor numere este mai mica decat 70 se va afisa un "Suma <suma> mai mica decat 70"
+     *
+     * @param args
+     */
     public static void main(String[] args)
     {
         Random random = new Random();
-        int randomInt = random.nextInt(100);
+        int x = random.nextInt(50 + 1);
+        int y = random.nextInt(50 + 1);
 
-        if (randomInt > 50) {
-            System.out.println("Numarul generat " + randomInt + " este mai mare decat 50");
-        } else {
-            System.out.println("Numarul generat " + randomInt + " este mai mic decat 50");
+        int suma = x + y;
+        if (suma > 70)
+        {
+            System.out.println("Suma " + suma + " este mai mare decat 70");
+        }
+        else if (suma < 70)
+        {
+            System.out.println("Suma " + suma + " este mai mica decat 70");
+        }
+        else
+        {
+            System.out.println("Suma " + suma + " este egala cu 70");
         }
     }
-
 }
