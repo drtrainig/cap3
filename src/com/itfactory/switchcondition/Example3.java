@@ -29,21 +29,7 @@ public class Example3
 
         switch (x)
         {
-        case 0:
-            System.out.println("Nu am primit nimic. Nu merg la film.");
-            break;
-        case 1:
-            System.out.println("Am un leu. Nu merg la film. Mai am nevoie de 4 lei.");
-            break;
-        case 2:
-            System.out.println("Am un leu. Nu merg la film. Mai am nevoie de 3 lei.");
-            break;
-        case 3:
-            System.out.println("Am un leu. Nu merg la film. Mai am nevoie de 2 lei.");
-            break;
-        case 4:
-            System.out.println("Am un leu. Nu merg la film. Mai am nevoie de 1 leu.");
-            break;
+        case 0: ?
         default:
             System.out.println("Am destui bani. Merg la film");
 

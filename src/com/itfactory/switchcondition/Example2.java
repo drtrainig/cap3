@@ -19,16 +19,7 @@ public class Example2
 
         switch (x)
         {
-        case 0:
-            System.out.println("Nu am nicio bomboana");
-            break;
-        case 1:
-            System.out.println("Am o bomboana");
-            break;
-        case 2:
-        case 3:
-        case 4:
-            System.out.println("Am mai multe bomboane");
+
         }
 
         //Pentru verificare puteti afisa numarul generat.

@@ -20,12 +20,12 @@ public class Example4
         int culoare1 = random.nextInt(3 + 1);
         int culoare2 = random.nextInt(3 + 1);
 
-        if (culoare1 == 3 && culoare2 == 3)
+        if ()
         {
             System.out.println("Culori: " + culoare1 + ":" + culoare2);
         }
 
-        if((culoare1 == 1 && culoare2 == 2) || ( culoare1 == 2 && culoare2 == 1)) {
+        if() {
             System.out.println("Nonculori: " + culoare1 + ":" + culoare2);
         }
 

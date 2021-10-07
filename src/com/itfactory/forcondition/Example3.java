@@ -14,12 +14,12 @@ public class Example3
     public static void main(String[] args)
     {
         Random random = new Random();
-        int limitaInferioara = random.nextInt(20 + 1);
-        int limitaSuperioara = random.nextInt(20 + 1);
+        int limitaInferioara;
+        int limitaSuperioara;
         if (limitaInferioara < limitaSuperioara)
         {
             System.out.println("S-a indeplinit conditia: limita inferioara:<" + limitaInferioara +"> | limita superioara <" + limitaSuperioara + ">");
-            for (int i = limitaInferioara; i <= limitaSuperioara; i++)
+            for (;;)
             {
                 System.out.print(" " + i + " ");
             }

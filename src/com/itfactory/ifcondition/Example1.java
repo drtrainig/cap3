@@ -12,13 +12,5 @@ public class Example1
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduceti numarul: ");
-        int x = scanner.nextInt();
-
-        if(x > 10) {
-            System.out.println("Aceasta conditie este indeplinita");
-        } else {
-            System.out.println("Aceasta conditie nu este indeplinita");
-        }
     }
 }

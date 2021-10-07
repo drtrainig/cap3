@@ -14,14 +14,12 @@ public class Example4
         Random random = new Random();
         int x = random.nextInt(10 + 1);
 
-        while (true)
+        while ()
         {
            if(x == 5) {
-               System.out.println("Numarul generat este intr-adevar 5. Verificare:  " + x);
+               //Acest break folosit in bucle ma ajuta ca la un momentdat sa inchid bucla. in acest caz, in momentul in care am generat 5, am iesti din bucla.
                break;
            }
-           System.out.println("S-a generat numarul: " + x);
-           x = random.nextInt(10 + 1);
         }
     }
 }

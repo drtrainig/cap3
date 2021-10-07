@@ -19,16 +19,12 @@ public class Example1
         {
         case 0:
             System.out.println("Am generat random 0");
-            break;
         case 1:
             System.out.println("Am generat random 1");
-            break;
         case 2:
             System.out.println("Am generat random 2");
-            break;
         case 3:
             System.out.println("Am generat random 3");
-            break;
         }
     }
 }

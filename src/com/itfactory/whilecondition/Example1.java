@@ -14,10 +14,7 @@ public class Example1
         Scanner scanner = new Scanner(System.in);
         int x;
         System.out.print("Introdu numarul: ");
-        //Pot sa am acest caz in care fac o atribuire in interiorul parantezelor buclei while.
-        //Atentie: Am facut o atribuire, dar in final  tot verific conditia sa fie diferit de 0 deoarece in while trebuie sa fie tot timpul conditia "Pana cand stau in bucla"
-        //Citesc numarul x care trebuie sa fie diferit de 0. In momentul in care citesc 0, ies din program.
-        while( (x = scanner.nextInt()) != 0 ) {
+        while( ) {
             System.out.println("Am citit: " + x);
             System.out.print("Introdu numarul: ");
         }

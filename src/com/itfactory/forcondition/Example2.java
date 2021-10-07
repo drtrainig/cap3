@@ -15,9 +15,8 @@ public class Example2
     public static void main(String[] args)
     {
         Random random = new Random();
-        for(int i =0; i < 19; i++)
+        for(;;)
         {
-            int x = random.nextInt(20 + 1);
             if ((i + x) == 30)
             {
                 System.out.println("Am gasit un match: " + i + " : " + x);

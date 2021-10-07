@@ -14,8 +14,6 @@ public class Example2
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Numarul initial: ");
-        int x  = scanner.nextInt();
-        int y;
         do
         {
             System.out.print("Introduceti noul numar: ");
@@ -24,7 +22,7 @@ public class Example2
             x = x + y; //x += y este un mod mai simplu de a-l aduna pe y la x.
             System.out.println("Am obtinut numarul: " + x);
             System.out.println("--------------------------");
-        } while (x < 50);
+        } while ();
 
         System.out.println("Am iesit din bucla");
     }

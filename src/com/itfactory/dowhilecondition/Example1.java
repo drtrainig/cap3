@@ -12,12 +12,9 @@ public class Example1
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        int x;
         do {
-            System.out.print("Numarul introdus: ");
             x = scanner.nextInt();
-            System.out.println("S-a citit numarul: " + x);
-        } while (x != 0);
+        } while ();
 
     }
 }
