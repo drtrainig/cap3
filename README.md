@@ -1,5 +1,10 @@
 # Capitolul 3. Linku-uri si exemple (Va rog sa faceti exemplele unde este posibil. De ex pe w3schools.
 
+!!! Important:
+https://www.w3schools.com/java/java_operators.asp
+
+In acest link va rog sa va uitati la Java Logical Operators.
+
 #if----
 
 https://www.w3schools.com/java/java_conditions.asp
